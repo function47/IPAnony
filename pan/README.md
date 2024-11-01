@@ -12,7 +12,7 @@ Implementation settings:
 6. Run C simulation.
 
 Results analysis:
-When the IP prefixes are the same, such as 192.168.0.0/16 and 134.232.0.0/16, the prefixes of the encrypted results are also the same, which is also a major feature of Crypto-PAn. This means that the encryption algorithm has successfully achievedencryption.
+When the IP prefixes are the same, such as 192.168.0.0/16 and 134.232.0.0/16, the prefixes of the encrypted results are also the same, which is also a major feature of Crypto-PAn. This means that the encryption algorithm has successfully achieved encryption.
 To test additional IP addresses, edit source_ip.dat and adjust the SOURCE variable in pan_test.cpp to the desired number of IP addresses.
 
 Results:
