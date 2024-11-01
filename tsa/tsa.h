@@ -1,5 +1,7 @@
 #ifndef _TSA_HEADERS
-#include <cstdint>
+#include<cstdint>
+#include<iostream>
+#include<vector>
 
 uint32_t tsa(uint32_t src_ip);
 
