@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/c2c6" \
+"../../../../pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_clk_wiz_0_0/PAN_TEST_clk_wiz_0_0_clk_wiz.v" \
+"../../../../pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_clk_wiz_0_0/PAN_TEST_clk_wiz_0_0.v" \
+"../../../../pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_util_vector_logic_0_0/sim/PAN_TEST_util_vector_logic_0_0.v" \
+"../../../../pan_viva.ip_user_files/bd/PAN_TEST/sim/PAN_TEST.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_control_s_axi.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_flipArray_RAM_AUTO_1R1W.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_flow_control_loop_pipe_sequential_init.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_getLeadingBits.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_pan_Pipeline_1.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_pan_Pipeline_VITIS_LOOP_39_2.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_process_r.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_process_r_aesInstance_0_ssbox_ROM_NP_LUTRAM_1R.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_sparsemux_21_4_128_1_1.v" \
+"../../../../pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan.v" \
+"../../../../pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_pan_0_0/sim/PAN_TEST_pan_0_0.v" \
+"../../../../pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_xlconstant_0_0/sim/PAN_TEST_xlconstant_0_0.v" \
+"../../../../pan_viva.srcs/sim_1/new/pan_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
