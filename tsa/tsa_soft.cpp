@@ -1,5 +1,17 @@
-#ifdef HLS_SYNTHESIS
+#ifndef HLS_SYNTHESIS
 #include "tsa.h"
+using namespace std;
+std::vector<int> uint32ToBitVector(uint32_t num) {
+    std::vector<int> bits(32);  // Initialize a vector of size 32
+
+    // Loop through each bit in the 32-bit integer
+    for (int i = 31; i>=0; i--) {
+        bits[i] = (num & 1);  // Extract the least significant bit and store in vector
+        num >>= 1;            // Right shift to get the next bit
+    }
+
+    return bits;
+}
 uint32_t reverseBits(uint32_t num) {
     uint32_t reversed = 0;
 
@@ -16,17 +28,17 @@ uint32_t reverseBits(uint32_t num) {
 }
 uint32_t tsa(uint32_t src_ip){
     //std::vector<int> bits = uint32ToBitVector(src_ip);
-    uint32_t cipher = src_ip;
+    uint32_t cipher = 0;
     for (int i = 0; i<5; i++){
         cipher &= table[i];
+        
     }
     for (int i = 6; i<16; i++){
-        int index = 4+(2<<(i-6))+10;
-        uint32_t x = table[index];
+        int temp = 4+(2<<(i-6))+10;
+        uint32_t x = table[temp];
         uint32_t b = (((x >> i) & 1)<<i);
         cipher |= b;
     }
-
 
     return src_ip ^ cipher;
 }
