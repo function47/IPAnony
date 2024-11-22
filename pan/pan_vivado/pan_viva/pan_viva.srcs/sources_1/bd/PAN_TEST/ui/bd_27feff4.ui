@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.17454",
+   "Default View_TopLeft":"-91,-51",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"/clk_wiz_0|/util_vector_logic_0|",
+   "PinnedPorts":"clk_100MHz|reset_rtl_0|",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_100MHz -pg 1 -lvl 0 -x -210 -y -290 -defaultsOSRD
+preplace port port-id_reset_rtl_0 -pg 1 -lvl 0 -x -210 -y -310 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 210 -y -300 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x -40 -y -110 -defaultsOSRD
+preplace inst pan_0 -pg 1 -lvl 3 -x 500 -y -190 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 210 -y -50 -defaultsOSRD
+preplace netloc clk_100MHz_1 1 0 2 NJ -290 N
+preplace netloc reset_rtl_0_1 1 0 2 -190J -310 N
+preplace netloc util_vector_logic_0_Res 1 1 2 NJ -110 310
+preplace netloc clk_wiz_0_clk_out1 1 2 1 320 -310n
+preplace netloc xlconstant_0_dout 1 2 1 N -50
+levelinfo -pg 1 -210 -40 210 500 680
+pagesize -pg 1 -db -bbox -sgen -350 -490 1330 450
+"
+}
+{
+   "da_board_cnt":"2"
+}

@@ -1,0 +1,35 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L util_vector_logic_v2_0_3 -L xlconstant_v1_1_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot pan_tb_behav xil_defaultlib.pan_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME4_ADV(CLKFBOUT_MULT_F=6.0,C...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.PAN_TEST_clk_wiz_0_0_clk_wiz
+Compiling module xil_defaultlib.PAN_TEST_clk_wiz_0_0
+Compiling module xil_defaultlib.pan_flipArray_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.pan_flow_control_loop_pipe_seque...
+Compiling module xil_defaultlib.pan_pan_Pipeline_1
+Compiling module xil_defaultlib.pan_getLeadingBits
+Compiling module xil_defaultlib.pan_process_r_aesInstance_0_ssbo...
+Compiling module xil_defaultlib.pan_sparsemux_21_4_128_1_1(din0_...
+Compiling module xil_defaultlib.pan_process_r
+Compiling module xil_defaultlib.pan_pan_Pipeline_VITIS_LOOP_39_2
+Compiling module xil_defaultlib.pan_control_s_axi
+Compiling module xil_defaultlib.pan
+Compiling module xil_defaultlib.PAN_TEST_pan_0_0
+Compiling module util_vector_logic_v2_0_3.util_vector_logic_v2_0_3_util_ve...
+Compiling module xil_defaultlib.PAN_TEST_util_vector_logic_0_0
+Compiling module xlconstant_v1_1_8.xlconstant_v1_1_8_xlconstant(CON...
+Compiling module xil_defaultlib.PAN_TEST_xlconstant_0_0
+Compiling module xil_defaultlib.PAN_TEST
+Compiling module xil_defaultlib.pan_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pan_tb_behav

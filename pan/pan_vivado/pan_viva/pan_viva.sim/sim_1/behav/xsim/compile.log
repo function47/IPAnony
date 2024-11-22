@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_clk_wiz_0_0/PAN_TEST_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PAN_TEST_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_clk_wiz_0_0/PAN_TEST_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PAN_TEST_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_util_vector_logic_0_0/sim/PAN_TEST_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PAN_TEST_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.ip_user_files/bd/PAN_TEST/sim/PAN_TEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PAN_TEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_control_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_flipArray_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_flipArray_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_getLeadingBits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_getLeadingBits
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_pan_Pipeline_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_pan_Pipeline_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_pan_Pipeline_VITIS_LOOP_39_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_pan_Pipeline_VITIS_LOOP_39_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_process_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_process_r
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_process_r_aesInstance_0_ssbox_ROM_NP_LUTRAM_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_process_r_aesInstance_0_ssbox_ROM_NP_LUTRAM_1R
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan_sparsemux_21_4_128_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_sparsemux_21_4_128_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.gen/sources_1/bd/PAN_TEST/ipshared/332b/hdl/verilog/pan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_pan_0_0/sim/PAN_TEST_pan_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PAN_TEST_pan_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.ip_user_files/bd/PAN_TEST/ip/PAN_TEST_xlconstant_0_0/sim/PAN_TEST_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PAN_TEST_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/mnt/build/fukun/pan_vivado/pan_viva/pan_viva.srcs/sim_1/new/pan_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pan_tb

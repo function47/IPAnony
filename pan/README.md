@@ -30,3 +30,7 @@ encrypted ip: 185.162.173.230
 
 source ip: 134.232.65.32
 encrypted ip: 185.162.180.184
+
+Update_2:
+In the pan_vivado folder, there is a Vivado project named pan_viva that focuses on the Crypto_PAN implementation. This project integrates an IP core generated using Vitis.
+Currently, the behavioral simulation for this project has been successfully completed. The next step in our work will be to perform RTL simulation to further validate and optimize the design.
