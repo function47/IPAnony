@@ -6,13 +6,14 @@
 #include <sstream>
 #include <cstdint>
 
-typedef std::string text_t;
-typedef ap_uint<128> dint_t;
+#define MAX_TEXT_LEN 32
+typedef char text_t[MAX_TEXT_LEN];
+typedef ap_uint<32> dint_t;
 
 
 void pan(
-  text_t ip,
-  text_t *ipEnc
+  dint_t *ip,
+  dint_t *ipEnc
   ); 
 
 #endif
