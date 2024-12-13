@@ -11,8 +11,7 @@ Purpose of the Code:
 | aes.hpp | Provides AES encryption functionality used by the Crypto_PAN algorithm. |
 | pan_test.cpp | Contains test cases for validating the functionality and correctness of pan.cpp. |
 | pan_host | Hosts the main program, handling input/output operations, integration with hardware or test environments, and serves as the application component. |
-
-
+| crypto_pan_pyscript/extract_ipadd.py | Extract the IP address from the pcap file |
 
 Code Testing Guide：
 
